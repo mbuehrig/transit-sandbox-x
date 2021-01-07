@@ -1,0 +1,19 @@
+<!--
+<app-map-station
+  *ngFor="let station of stations"
+  [colors]="colors"
+  [shape]="shape"
+  [lngLat]="station.lngLat"
+  [label]="station.stationName"
+></app-map-station>
+<modal v-if="showModal">
+  <template v-slot:content>
+    <big-text-input v-model="tmpPoint.stationName" id="tmp-station-name" label="station name" />
+  </template>
+  <template v-slot:foot>
+    <btn color="RedCancel" icon="close" label="cancel" sizeClass="small"
+      @click="closeModal"/>
+    <btn color="GreenConfirm" icon="check" label="save" sizeClass="small"
+      @click="saveModal"/>
+  </template>
+</modal> -->

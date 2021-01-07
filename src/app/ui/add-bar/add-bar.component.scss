@@ -1,0 +1,23 @@
+.add-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.add-bar:hover {
+  .add-bar__functions {
+    right: var(--sizeButtonDefault);
+    transform: translateX(0);
+  }
+}
+
+.add-bar__functions {
+  position: fixed;
+
+  bottom: 0;
+  right: 0;
+
+  transform: translateX(100%);
+
+  display: flex;
+}

@@ -1,0 +1,36 @@
+{
+  "conversionType": "object",
+  "srcFiles": [
+    "./src/assets/icons/*.svg"
+  ],
+  "outputDirectory": "./src/app/shared/icon",
+  "fileName": "svgs.auto-generated",
+  "delimiter": "KEBAB",
+  "svgoConfig": {
+    "plugins": [
+      {
+        "cleanupIDs": {
+          "remove": true
+        }
+      },
+      {
+        "cleanupNumericValues": {
+          "floatPrecision": 2
+        }
+      },
+      {
+        "removeAttrs": {
+          "attrs": [
+            "stroke"
+          ]
+        }
+      },
+      {
+        "removeStyleElement": true
+      },
+      {
+        "removeTitle": true
+      }
+    ]
+  }
+}

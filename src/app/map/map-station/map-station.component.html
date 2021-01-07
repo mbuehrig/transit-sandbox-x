@@ -1,0 +1,6 @@
+<div
+  :class="['map-station', `map-station--${shape}`]"
+  :style="[`--primary: colors.primary`, `--secondary: colors.secondary`]"
+>
+  <span class="map-station__name" *ngIf="label">{{ label }}</span>
+</div>
